@@ -82,7 +82,7 @@ function getFinalInput() {
         var inputCoordinates;
         return __generator(this, function (_a) {
             inputCoordinates = new Promise(function (resolve) {
-                var readFile = fs.readFileSync("InputCoordinates.txt");
+                var readFile = fs.readFileSync("/Users/erinkacerovskis/Documents/LaunchCode/AdventOfCode2023/AdventofCode2023/1-Trebuchet//InputCoordinates.txt");
                 resolve(String(readFile));
             });
             return [2 /*return*/, inputCoordinates];
